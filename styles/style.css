@@ -21,6 +21,9 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+header > hr{
+    border: .5px solid rgba(255, 255, 255, 0.267);
+}
 .secondary-container{
     max-width: 1200px;
     margin: 0 auto;
@@ -38,12 +41,13 @@
     display: flex;
 }
 
+
 .btn-primary{
     padding: 12.5px 16px;
 
     border-radius: 10000px;
     border: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 600;
     cursor: pointer;
 
@@ -106,6 +110,120 @@
 
 
 /* navbar styling finish */
+
+/* banner section starts here */
+
+.banner{
+    background-image: url('../Images/hero-bg.png');
+    min-height: 760px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.banner-content{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.banner-content .banner-title{
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: rgb(253, 253, 253);
+}
+.rounded-mic-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+    height: 400px; 
+  
+}
+
+.rounded-mic-parent .rounded-circle{
+    max-width: 100%;
+    
+    position: absolute;
+    z-index: 1;
+   
+
+}
+.rounded-mic-parent .mic{
+max-width: 200px;
+
+position: absolute;
+z-index: 2;
+
+}
+
+
+.rounded-mic-parent span{
+    background-color: #00FF88;
+    display: inline-block;
+    color: #1A0B2E;
+    border-radius: 1000px;
+    padding: 8px 16px;
+    border: none;
+    font-size: 1.175rem;
+    font-weight: 600;
+    position: absolute;
+    z-index: 3;
+    top: 10%; 
+    right: 23%;
+
+
+}
+
+.btn-container{
+   display: flex;
+   max-width: 360px;
+   margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.btn-spotify{
+  display: flex;
+     padding: 12.5px 20px;
+    border-radius: 10000px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    cursor: pointer;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+
+
+.btn-subscribe{
+ padding: 12.5px 20px;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid #00FF88; 
+    color: #00FF88; 
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+
+
+
+
 
 
 
