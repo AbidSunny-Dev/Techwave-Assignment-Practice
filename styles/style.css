@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* shared css */
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.secondary-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.primary-bg-color{
+    background-color: #1A0B2E;
+}
+
+.linear-bg-color{
+    background: linear-gradient(90deg,#F7E93F,#FB09B4,#9100F8);
+}
+
+.display-flex{
+    display: flex;
+}
+
+.btn-primary{
+    padding: 12.5px 16px;
+
+    border-radius: 10000px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar style starts here */
+.navbar{
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.nav-links{
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-logo{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.text-logo span {
+  background: linear-gradient(to right, #ff4db8, #7a00ff);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-links li{
+
+    list-style: none; 
+    
+ 
+}
+.nav-links .nav-items{
+    text-decoration: none;
+    color: white;
+   
+}
+.navbar i{
+    font-size: 13px;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+
+/* navbar styling finish */
+
+
+
+
+
+@media  screen and (max-width:576px) {
+
+ .nav-links{
+    display: none;
+
+ }
+ .hamburger {
+    display: inline-block;
+    color: white;
+    background:transparent;
+    border: none;
+    margin-right: 30px;
+    
+}
+
+.btn-primary{
+    display: none;
+}
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
