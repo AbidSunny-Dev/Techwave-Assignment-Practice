@@ -432,6 +432,92 @@ z-index: 2;
     display: block;
 }
 
+/* host section starts here */
+
+.host{
+     background-color: #1A0B2E;
+
+    color: white;
+
+    
+}
+
+
+.host-title{
+
+   text-align: center;
+   margin-bottom: 40px;
+   font-size: 3rem;
+   font-weight: 700;
+
+}
+
+.host-content{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 60px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+    padding:  40px;
+   
+}
+
+.host-content .host-img{
+    max-width: 200px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+}
+.host-content .host-img img{
+    width: 100%;
+}
+
+.host-info{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 16px;
+}
+.host-name{
+    font-size:2rem ;
+    font-weight: bold;
+}
+.host-text{
+  line-height: 24px;
+}
+
+.host-links{
+   display: flex;
+    gap: 8px;
+    justify-content: flex-start;
+   
+  
+}
+
+.links-container {
+  border: 1px solid rgba(83, 60, 114, 1);
+    border-radius: 50%;
+    
+   
+    width: 40px; 
+    height: 40px;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.links-container img {
+    
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
 
 
 
@@ -545,7 +631,22 @@ z-index: 2;
         padding: 30px 20px;
         margin: 0 20px;
     }
+    .host-container{
+        padding: 40px 20px;
+    }
 
+    .host-content{
+        
+     flex-direction: column;
+     align-items: center;
+     padding: 30px 20px;
+    
+    }
+    .host-info {
+        align-items: center; /* Centers items inside the flex column */
+        text-align: center;
+    }
+   
   
     }
 
